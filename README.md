@@ -1,4 +1,4 @@
-Avocarrot demo-app oriOS
+Avocarrot demo-app for iOS
 ============
 
 This is an open-source app to demonstrate how Avocarrot Native Ads look and how you can integrate them.
