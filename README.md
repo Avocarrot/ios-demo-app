@@ -12,9 +12,9 @@ Screenshots
 Dependencies
 --------------------
 
-    * SystemConfiguration.framework
-    * CoreTelephony.framework
-    * AdSupport.framework
+    SystemConfiguration.framework
+    CoreTelephony.framework
+    AdSupport.framework
 
 Support
 ---------------------
