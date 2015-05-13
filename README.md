@@ -1,3 +1,5 @@
+<img width="300" src="https://cloud.githubusercontent.com/assets/1907604/7618436/f8c371de-f9a9-11e4-8846-772f67f53513.jpg"/>
+
 Avocarrot demo-app for iOS
 ============
 
