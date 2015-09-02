@@ -35,6 +35,11 @@
 - (UIImage *) getImage;
 - (UIImage *) getIcon;
 
+- (NSString *) getImageUrl;
+- (NSString *) getIconUrl;
+- (NSString *) getDestinationUrl;
+- (NSMutableArray *) getImpressionTrackers;
+
 @end
 
 @protocol AVCustomEventDelegate <NSObject>

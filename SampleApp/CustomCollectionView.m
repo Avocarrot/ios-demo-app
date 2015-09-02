@@ -268,12 +268,13 @@ static NSString *const CellIdentifier = @"MyCell";
     if ([self.myAd getImage] !=nil){
        [cellImage setImage:[self.myAd getImage]];
        [self.myAd bindToView:cell];
+        
     }
 }
 
 -(void)buttonClick:(id)sender
 {
-   [self.myAd handleClick];
+    [self.myAd handleClick];
 }
  @end
 

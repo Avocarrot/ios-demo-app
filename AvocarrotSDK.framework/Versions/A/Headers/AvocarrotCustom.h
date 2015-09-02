@@ -26,6 +26,13 @@
  */
 - (void)loadAdForPlacement:(NSString *)placement;
 
+/**
+ * Determines whether preloading should be set
+ *
+ * @param preloading The boolean value to use.
+ */
+- (void)disablePreloading;
+
 @end
 
 #pragma mark - AVCustomAdDelegate
