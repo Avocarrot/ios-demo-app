@@ -28,5 +28,4 @@ Documentation
 --------------------
 
 To find more information on how you can setup your Avocarrot Native Ads, go here:
-[Avocarrot iOS Documentation](http://www.avocarrot.com/docs/#/ios) 
-
+[Avocarrot iOS Documentation](http://app.avocarrot.com/#/docs/getting-started/ios) 
