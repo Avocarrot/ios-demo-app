@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2A09406E198106B300F478BD /* OnClickInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A09406D198106B300F478BD /* OnClickInterstitial.m */; };
+		2A41A2FA1BCD1DF100CA8B5F /* AvocarrotSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A41A2F91BCD1DF100CA8B5F /* AvocarrotSDK.framework */; settings = {ASSET_TAGS = (); }; };
 		2A61A9F0197537490043AF81 /* CustomCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A61A9EB197537490043AF81 /* CustomCollectionView.m */; };
 		2A61A9F1197537490043AF81 /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A61A9ED197537490043AF81 /* CustomCollectionViewCell.m */; };
 		2A61A9F2197537490043AF81 /* CustomPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A61A9EF197537490043AF81 /* CustomPullToRefresh.m */; };
@@ -20,7 +21,6 @@
 		2A61AA0C1975376C0043AF81 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A61AA0B1975376C0043AF81 /* Storyboard.storyboard */; };
 		2A61AA13197538C50043AF81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A61AA12197538C50043AF81 /* Images.xcassets */; };
 		2A61AA31197539A40043AF81 /* avocarrot-images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2A61AA30197539A40043AF81 /* avocarrot-images.bundle */; };
-		2A980D481BABF15A00AA52D8 /* AvocarrotSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A980D471BABF15A00AA52D8 /* AvocarrotSDK.framework */; settings = {ASSET_TAGS = (); }; };
 		2AFBCBFC19753C020069EED6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFBCBFB19753C020069EED6 /* QuartzCore.framework */; };
 		2AFBCC0119753F960069EED6 /* AutoShowInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBCC0019753F960069EED6 /* AutoShowInterstitial.m */; };
 		2AFBCC03197541340069EED6 /* InStreamGrouped.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBCC02197541340069EED6 /* InStreamGrouped.m */; };
@@ -39,6 +39,7 @@
 /* Begin PBXFileReference section */
 		2A09406C198106B300F478BD /* OnClickInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnClickInterstitial.h; sourceTree = "<group>"; };
 		2A09406D198106B300F478BD /* OnClickInterstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnClickInterstitial.m; sourceTree = "<group>"; };
+		2A41A2F91BCD1DF100CA8B5F /* AvocarrotSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvocarrotSDK.framework; sourceTree = "<group>"; };
 		2A61A9EA197537490043AF81 /* CustomCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionView.h; sourceTree = "<group>"; };
 		2A61A9EB197537490043AF81 /* CustomCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionView.m; sourceTree = "<group>"; };
 		2A61A9EC197537490043AF81 /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
@@ -61,7 +62,6 @@
 		2A61AA0B1975376C0043AF81 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		2A61AA12197538C50043AF81 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2A61AA30197539A40043AF81 /* avocarrot-images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "avocarrot-images.bundle"; sourceTree = "<group>"; };
-		2A980D471BABF15A00AA52D8 /* AvocarrotSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvocarrotSDK.framework; sourceTree = "<group>"; };
 		2AFBCBFB19753C020069EED6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		2AFBCBFF19753F960069EED6 /* AutoShowInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoShowInterstitial.h; sourceTree = "<group>"; };
 		2AFBCC0019753F960069EED6 /* AutoShowInterstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoShowInterstitial.m; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 				2AFBCBFC19753C020069EED6 /* QuartzCore.framework in Frameworks */,
 				9E6EF413183A21310005C0C1 /* CoreTelephony.framework in Frameworks */,
 				9E6EF410183A11C60005C0C1 /* SystemConfiguration.framework in Frameworks */,
-				2A980D481BABF15A00AA52D8 /* AvocarrotSDK.framework in Frameworks */,
+				2A41A2FA1BCD1DF100CA8B5F /* AvocarrotSDK.framework in Frameworks */,
 				9ED4763417F9A2EF001FAA70 /* PassKit.framework in Frameworks */,
 				9E8681A817C9281500B82669 /* AdSupport.framework in Frameworks */,
 				9E9C1EA617BBD2C200CD1D63 /* UIKit.framework in Frameworks */,
@@ -193,7 +193,7 @@
 		9E9C1EA417BBD2C200CD1D63 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2A980D471BABF15A00AA52D8 /* AvocarrotSDK.framework */,
+				2A41A2F91BCD1DF100CA8B5F /* AvocarrotSDK.framework */,
 				2AFBCBFB19753C020069EED6 /* QuartzCore.framework */,
 				9E8681A717C9281500B82669 /* AdSupport.framework */,
 				9E6EF40F183A11C60005C0C1 /* SystemConfiguration.framework */,
